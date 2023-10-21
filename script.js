@@ -24,7 +24,7 @@ if (startScript == 1) {
         alert("Thank you!")
     } else {
         window.prompt("How could this be improved?")
-        alert("I will take note of that.")
+        alert("I will take note of that. (in other words it's not saved anywhere :3)")
     }
 } else if (startScript == 5) {
     var hourlyRate
