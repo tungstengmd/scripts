@@ -33,3 +33,4 @@ if (startScript == 1) {
     hoursWorked = window.prompt("Input how long you work.")
     alert("Your weekly pay is " + "£" + hourlyRate * hoursWorked + " per week. Have a nice day!")
 }
+// jamie for the love of god learn js
