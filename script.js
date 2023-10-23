@@ -19,7 +19,7 @@ if (startScript == 1) {
 } else if (startScript == 4) {
     var prompts
     alert("Hello! This is a text box. I think it's kinda neat.")
-    prompts = window.prompt("is this cool?")
+    prompts = window.prompt("Is this cool?")
     if (prompts.toLowerCase == "yes") {
         alert("Thank you!")
     } else {
