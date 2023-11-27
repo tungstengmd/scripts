@@ -1,4 +1,4 @@
-// the following line asks which program to start or smth idek :3
+//the following line asks which program to start or smth idek :3
 startScript = window.prompt("Which script should be started? The calculator, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter or the times table program? Answer with 1, 2, 3, 4 and 5 respectively.")
 if (startScript == 1) {
     number1 = window.prompt("What number do you wish to multiply?")
