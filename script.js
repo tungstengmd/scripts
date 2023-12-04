@@ -43,7 +43,7 @@ if (startScript == 1) {
         alert("Your fare is £" + fare + "0.")
     }
 } else if (startScript == 8) {
-    var random = Math.floor(Math.random() * 10)
+    random = Math.floor(Math.random() * 10)
     console.log("Shh! The number is " + random + ". Don't tell anyone!")
     guess = window.prompt("Guess my lucky number!")
     times = 1
