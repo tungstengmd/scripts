@@ -1,18 +1,21 @@
 console.log("The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator and my while loop test.")
 startScript = window.prompt("Which script should be started? Answer with 1 to 9 respectively. Check the console for the script list.")
 switch (startScript) {
-    case 1:
+    case "1":
         number1 = window.prompt("What number do you wish to multiply?") // he multiplies
         number2 = window.prompt("What are you multiplying it by?") // he goin ham
         alert("The answer is " + number1 * number2 + ".") //answer :woohoo:
-    case 2:
+        break
+    case "2":
         colour = window.prompt("What's your favourite colour?")
         document.write("Your favourite colour is " + colour + ".") //literally obvious IT STATES A VARIABLE LOL
-    case 3:
+        break
+    case "3":
         firstName = window.prompt("What's your first name?")
         lastName = window.prompt("What's your last name?")
         document.write(lastName + " " + firstName) //also obvious
-    case 4:
+        break
+    case "4":
         alert("Hello! This is a text box. I think it's kinda neat.")
         prompts = window.prompt("is this cool?")
         if (prompts.toLowerCase == "yes") {
@@ -21,18 +24,21 @@ switch (startScript) {
             window.prompt("How could this be improved?")
             alert("I will take note of that. (in other words it isn't stored anywhere :3)")
         }
-    case 5:
+        break
+    case "5":
         hourlyRate = window.prompt("Input your hourly rate.")
         hoursWorked = window.prompt("Input how long you work.")
         alert("Your weekly pay is " + "£" + hourlyRate * hoursWorked + " per week.") //the multiplier reworded  
-    case 6:
+        break
+    case "6":
         housenumber = window.prompt("Enter your house number.")
         street = window.prompt("Enter your street.")
         town = window.prompt("Enter your town.")
         town = town.charAt(0).toUpperCase + town.slice(1) //capitalises first letter
         house = housenumber + ", " + street + ", " + town
         alert("You live at " + house + ".")
-    case 7:
+        break
+    case "7":
         const base = 1.10
         distance = parseFloat(window.prompt("How far is your journey?"))
         time = parseFloat(window.prompt("How long will it take?") * 0.1)
@@ -43,7 +49,8 @@ switch (startScript) {
         } else {
             alert("Your fare is £" + fare + "0.")
         }
-    case 8:
+        break
+    case "8":
         random = Math.floor(Math.random() * 10)
         console.log("Shh! The number is " + random + ". Don't tell anyone!")
         guess = window.prompt("Guess my lucky number!")
@@ -60,14 +67,16 @@ switch (startScript) {
         }
         alert("YIPPEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!")
         console.log("The amount of tries needed for this to succeed were: " + times)
-    case 9:
+        break
+    case "9":
         number = window.prompt("Gimme a number.")
         if (number % 2 == 0) { // the percent sign sends the remainder back with modulus
             alert("That's an even number or smth idk i forgor mdgkjbhdsmbj")
         } else if (number % 2 == 1) {
             alert("you are one silly oddball")
         }
+        break
     default:
-        document.write("just so it doesn't break")
+        break
 }
 // jamie for the love of god learn js
