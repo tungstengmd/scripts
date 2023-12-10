@@ -47,6 +47,7 @@ switch (startScript) {
         fare = time + distance + base
         if (fare < 2.5) {
             console.error("PRICE TOO LOW; SWITCHING TO MINIMUM FARE...")
+            sleep(100)
             alert("Your fare is £2.50")
         } else {
             alert("Your fare is £" + fare + "0.")
