@@ -1,9 +1,11 @@
-console.log("The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator and my while loop test.")
+const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay)) //IT'S 9PM GO TO SLEEP
+console.log("The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the number detector.")
+sleep(1)
 startScript = window.prompt("Which script should be started? Answer with 1 to 9 respectively. Check the console for the script list.")
 switch (startScript) {
     case "1":
         number1 = window.prompt("What number do you wish to multiply?") // he multiplies
-        number2 = window.prompt("What are you multiplying it by?") // he goin ham
+        number2 = window.prompt("What are you multiplying it by?") // he multiplies by the thing
         alert("The answer is " + number1 * number2 + ".") //answer :woohoo:
         break
     case "2":
