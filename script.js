@@ -17,7 +17,7 @@ switch (startScript) {
         lastName = window.prompt("What's your last name?")
         document.write(lastName + " " + firstName) //also obvious
         break
-    case "4":
+    case "4"://this was an if statement test
         alert("Hello! This is a text box. I think it's kinda neat.")
         prompts = window.prompt("is this cool?")
         if (prompts.toLowerCase == "yes") {
