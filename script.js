@@ -1,6 +1,6 @@
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay)) //IT'S 9PM GO TO SLEEP
 console.log("The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the number detector.")
-sleep(1)
+sleep(1) //trust me 1 millisecond isnt as tedious as it looks
 startScript = window.prompt("Which script should be started? Answer with 1 to 9 respectively. Check the console for the script list.")
 switch (startScript) {
     case "1":
@@ -17,7 +17,7 @@ switch (startScript) {
         lastName = window.prompt("What's your last name?")
         document.write(lastName + " " + firstName) //also obvious
         break
-    case "4"://this was an if statement test
+    case "4": //this was an if statement test
         alert("Hello! This is a text box. I think it's kinda neat.")
         prompts = window.prompt("is this cool?")
         if (prompts.toLowerCase == "yes") {
