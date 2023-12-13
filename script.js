@@ -80,6 +80,6 @@ switch (startScript) {
         }
         break
     default:
-        break
+        startScript = window.prompt("Write something please.")
 }
 // jamie for the love of god learn js
