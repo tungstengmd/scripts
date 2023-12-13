@@ -41,10 +41,9 @@ switch (startScript) {
         alert("You live at " + house + ".")
         break
     case "7":
-        const base = 1.10
         distance = parseFloat(window.prompt("How far is your journey?"))
         time = parseFloat(window.prompt("How long will it take?") * 0.1)
-        fare = time + distance + base
+        fare = time + distance + 1.1
         if (fare < 2.5) {
             console.error("PRICE TOO LOW; SWITCHING TO MINIMUM FARE...")
             sleep(100)
