@@ -5,3 +5,4 @@
   'array': [Arrays/are/written/like/this/and special characters are written like/"£$%£"/that.]
   //Inlines are written like so:
   ('eg1': here, 'eg2': hereaswell)
+  //Indentations are 2 spaces, like YAML.
