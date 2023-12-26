@@ -1,16 +1,16 @@
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay)) //IT'S 9PM GO TO SLEEP
 console.log("The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the number detector.")
-sleep(1) //trust me 1 millisecond isnt as tedious as it looks
+sleep(1)
 startScript = window.prompt("Which script should be started? Answer with 1 to 9 respectively. Check the console for the script list.")
 switch (startScript) {
     case "1":
         number1 = window.prompt("What number do you wish to multiply?") // he multiplies
         number2 = window.prompt("What are you multiplying it by?") // he multiplies by the thing
-        alert("The answer is " + number1 * number2 + ".") //answer :woohoo:
+        alert(`The answer is ${number1 * number2}.`) //answer :woohoo:
         break
     case "2":
         colour = window.prompt("What's your favourite colour?")
-        document.write("Your favourite colour is " + colour + ".") //literally obvious IT STATES A VARIABLE LOL
+        document.write(`Your favourite colour is ${colour}.`) //literally obvious IT STATES A VARIABLE LOL
         break
     case "3":
         firstName = window.prompt("What's your first name?")
@@ -30,7 +30,7 @@ switch (startScript) {
     case "5":
         hourlyRate = window.prompt("Input your hourly rate.")
         hoursWorked = window.prompt("Input how long you work.")
-        alert("Your weekly pay is " + "£" + hourlyRate * hoursWorked + " per week.") //the multiplier reworded  
+        alert(`Your weekly pay is £${hourlyRate * hoursWorked}per week.`) //the multiplier reworded  
         break
     case "6":
         housenumber = window.prompt("Enter your house number.")
@@ -38,7 +38,7 @@ switch (startScript) {
         town = window.prompt("Enter your town.")
         town = town.charAt(0).toUpperCase + town.slice(1) //capitalises first letter
         house = housenumber + ", " + street + ", " + town
-        alert("You live at " + house + ".")
+        alert(`You live at ${house}.`)
         break
     case "7":
         distance = parseFloat(window.prompt("How far is your journey?"))
@@ -49,12 +49,12 @@ switch (startScript) {
             sleep(100)
             alert("Your fare is £2.50")
         } else {
-            alert("Your fare is £" + fare + "0.")
+            alert(`Your fare is £${fare}0.`)
         }
         break
     case "8":
         random = Math.floor(Math.random() * 10)
-        console.log("Shh! The number is " + random + ". Don't tell anyone!")
+        console.log(`Shh! The number is ${random}. Don't tell anyone!`)
         guess = window.prompt("Guess my lucky number!")
         times = 1
         while (guess != random) {
@@ -68,7 +68,7 @@ switch (startScript) {
             times++
         }
         alert("YIPPEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!")
-        console.log("The amount of tries needed for this to succeed were: " + times)
+        console.log("The amount of tries needed for this to succeed were: ${times}")
         break
     case "9":
         number = window.prompt("Gimme a number.")
@@ -79,6 +79,6 @@ switch (startScript) {
         }
         break
     default:
-        startScript = window.prompt("Write something please.")
+        location.reload()
 }
 // jamie for the love of god learn js
