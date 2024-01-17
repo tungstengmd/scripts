@@ -4,18 +4,18 @@ sleep(1)
 startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. Check the console for the script list.")
 switch (startScript) {
     case "1":
-        number1 = prompt("What number do you wish to multiply?") // he multiplies
-        number2 = prompt("What are you multiplying it by?") // he multiplies by the thing
+        number1 = prompt("What number do you wish to multiply?") 
+        number2 = prompt("What are you multiplying it by?")
         alert(`The answer is ${number1 * number2}.`) //answer :woohoo:
         break
     case "2":
         colour = prompt("What's your favourite colour?")
-        document.write(`Your favourite colour is ${colour}.`) //literally obvious IT STATES A VARIABLE LOL
+        document.write(`Your favourite colour is ${colour}.`)
         break
     case "3":
         firstName = prompt("What's your first name?")
         lastName = prompt("What's your last name?")
-        document.write(lastName + " " + firstName) //also obvious
+        document.write(lastName + " " + firstName)
         break
     case "4": //this was an if statement test
         alert("Hello! This is a text box. I think it's kinda neat.")
@@ -30,8 +30,7 @@ switch (startScript) {
     case "5":
         hourlyRate = prompt("Input your hourly rate.")
         hoursWorked = prompt("Input how long you work.")
-        alert(`Your weekly pay is £${hourlyRate * hoursWorked}per week.`) //the multiplier reworded  
-        break
+        alert(`Your weekly pay is £${hourlyRate * hoursWorked} per week.`)
     case "6":
         housenumber = prompt("Enter your house number.")
         street = prompt("Enter your street.")
@@ -81,4 +80,5 @@ switch (startScript) {
     default:
         location.reload()
 }
+//TODO: add more scripts
 // jamie for the love of god learn js
