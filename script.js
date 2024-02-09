@@ -48,7 +48,7 @@ switch (startScript) {
             sleep(100)
             alert("Your fare is £2.50")
         } else {
-            alert(`Your fare is £${fare}0.`)
+            alert(`Your fare is £${fare.toFixed(1)}0.`)
         }
         break
     case "8":
@@ -71,7 +71,7 @@ switch (startScript) {
         break
     case "9":
         number = prompt("Gimme a number.")
-        if (number % 2 == 0) { // the percent sign sends the remainder back with modulus
+        if (number % 2 == 0) { //the percent sign sends the remainder back with modulus
             alert("That's an even number or smth idk i forgor mdgkjbhdsmbj")
         } else if (number % 2 == 1) {
             alert("you are one silly oddball")
@@ -81,4 +81,5 @@ switch (startScript) {
         location.reload()
 }
 //TODO: add more scripts
-// jamie for the love of god learn js
+//jamie for the love of god learn js
+//written with far
