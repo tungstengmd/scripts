@@ -6,7 +6,7 @@ switch (startScript) {
     case "1":
         number1 = prompt("What number do you wish to multiply?") 
         number2 = prompt("What are you multiplying it by?")
-        alert(`The answer is ${number1 * number2}.`) //answer :woohoo:
+        alert(`The answer is ${number1 * number2}.`)
         break
     case "2":
         colour = prompt("What's your favourite colour?")
@@ -35,7 +35,7 @@ switch (startScript) {
         housenumber = prompt("Enter your house number.")
         street = prompt("Enter your street.")
         town = prompt("Enter your town.")
-        town = town.charAt(0).toUpperCase + town.slice(1) //capitalises first letter
+        town = town.charAt(0).toUpperCase + town.slice(1) //capitalises first letter by slicing it off and replacing it
         house = housenumber + ", " + street + ", " + town
         alert(`You live at ${house}.`)
         break
