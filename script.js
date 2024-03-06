@@ -20,12 +20,8 @@ switch (startScript) {
     case "4": //this was an if statement test
         alert("Hello! This is a text box. I think it's kinda neat.")
         prompts = prompt("is this cool?")
-        if (prompts.toLowerCase == "yes") {
-            alert("Thank you!")
-        } else {
-            prompt("How could this be improved?")
-            alert("I will take note of that. (in other words it isn't stored anywhere :3)")
-        }
+        prompt("How could this be improved?")
+        alert("I will take note of that. (in other words it isn't stored anywhere :3)")
         break
     case "5":
         hourlyRate = prompt("Input your hourly rate.")
