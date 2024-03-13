@@ -2,7 +2,8 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay)); /
 console.log("The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the 
 little test I made, the weekly pay calculator, the address formatter, the Uber ® fare calculator, my while loop 
 test and the number detector.") sleep(1) startScript = prompt("Which script should be started? Answer with 1 to 
-9 respectively. Check the console for the script list."); switch (startScript) {
+9 respectively. Check the console for the script list."); 
+switch (startScript) {
     case "1":
         number1 = prompt("What number do you wish to multiply?"); 
         number2 = prompt("What are you multiplying it by?");
