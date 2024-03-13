@@ -9,9 +9,9 @@ test and the number detector.") sleep(1) startScript = prompt("Which script shou
         alert(`The answer is ${number1 * number2}.`);
         break;
     case "2":
-        colour = prompt("What's your favourite colour?");;
+        colour = prompt("What's your favourite colour?");
         document.write(`Your favourite colour is ${colour}.`);
-        break
+        break;
     case "3":
         firstName = prompt("What's your first name?");
         lastName = prompt("What's your last name?");
@@ -27,6 +27,7 @@ test and the number detector.") sleep(1) startScript = prompt("Which script shou
         hourlyRate = prompt("Input your hourly rate.");
         hoursWorked = prompt("Input how long you work.");
         alert(`Your weekly pay is £${hourlyRate * hoursWorked} per week.`);
+        break;
     case "6":
         housenumber = prompt("Enter your house number.");
         street = prompt("Enter your street.");
