@@ -31,7 +31,7 @@ switch (startScript) {
         housenumber = prompt("Enter your house number.");
         street = prompt("Enter your street.");
         town = prompt("Enter your town.");
-        town = town.charAt(0).toUpperCase + town.slice(1); //capitalises first letter by slicing it off and replacing it
+        town = town.charAt(0).toUpperCase() + town.slice(1); //capitalises first letter by slicing it off and replacing it
         house = housenumber + ", " + street + ", " + town;
         alert(`You live at ${house}.`);
         break;
