@@ -1,17 +1,16 @@
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay)); //IT'S 9PM GO TO SLEEP 
-console.log("The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the 
-little test I made, the weekly pay calculator, the address formatter, the Uber ® fare calculator, my while loop 
-test and the number detector.") sleep(1) startScript = prompt("Which script should be started? Answer with 1 to 
-9 respectively. Check the console for the script list."); switch (startScript) {
+sleep(1) 
+startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber ® fare calculator, my while loop test and the number detector."); 
+switch (startScript) {
     case "1":
         number1 = prompt("What number do you wish to multiply?"); 
         number2 = prompt("What are you multiplying it by?");
         alert(`The answer is ${number1 * number2}.`);
         break;
     case "2":
-        colour = prompt("What's your favourite colour?");;
+        colour = prompt("What's your favourite colour?");
         document.write(`Your favourite colour is ${colour}.`);
-        break
+        break;
     case "3":
         firstName = prompt("What's your first name?");
         lastName = prompt("What's your last name?");
@@ -27,6 +26,7 @@ test and the number detector.") sleep(1) startScript = prompt("Which script shou
         hourlyRate = prompt("Input your hourly rate.");
         hoursWorked = prompt("Input how long you work.");
         alert(`Your weekly pay is £${hourlyRate * hoursWorked} per week.`);
+        break;
     case "6":
         housenumber = prompt("Enter your house number.");
         street = prompt("Enter your street.");
