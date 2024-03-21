@@ -79,3 +79,4 @@ switch (startScript) {
 //TODO: add more scripts
 //jamie for the love of god learn js
 //written with far
+//ngl this code makes me want to kiss boys :3
