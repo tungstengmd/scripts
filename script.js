@@ -70,10 +70,11 @@ switch (startScript) {
         if (number % 2 == 0) { //the percent sign sends the remainder back with modulus
             alert("That's an even number or smth idk i forgor mdgkjbhdsmbj");
         } else if (number % 2 == 1) {
-            alert("you are one silly oddball");
+            alert("you are one silly oddball. Or are you? *vsauce theme plays*");
         }
         break;
     default:
+        alert("You need to pick one. Let's try again, shall we?");
         location.reload();
 }
 //TODO: add more scripts
