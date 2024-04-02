@@ -1,6 +1,6 @@
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay)); //IT'S 9PM GO TO SLEEP 
 sleep(1);
-startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber ® fare calculator, my while loop test and the number detector."); 
+startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the number detector."); 
 switch (startScript) {
     case "1":
         number1 = prompt("What number do you wish to multiply?"); 
