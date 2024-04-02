@@ -1,8 +1,8 @@
-startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the number detector."); 
+startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the nuber detector.");
 switch (startScript) {
     case "1":
-        number1 = prompt("What number do you wish to multiply?"); 
-        number2 = prompt("What are you multiplying it by?");
+        number1 = prompt("What number do you wish to multiply?");
+    number2 = prompt("What are you multiplying it by?");
         alert(`The answer is ${number1 * number2}.`);
         break;
     case "2":
@@ -58,7 +58,7 @@ switch (startScript) {
             }
             times++;
             console.error("You suffer from a severe case of skill issue.");
-        }
+        };
         alert("YIPPEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!");
         console.log(`The amount of tries needed for this to succeed were: ${times}`);
         break;
@@ -67,7 +67,7 @@ switch (startScript) {
         if (number % 2 == 0) { //the percent sign sends the remainder back with modulus
             alert("That's an even number or smth idk i forgor mdgkjbhdsmbj");
         } else if (number % 2 == 1) {
-                                     alert("you are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*");
+            alert("you are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*");
         }
         break;
     default:
