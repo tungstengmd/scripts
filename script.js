@@ -1,8 +1,8 @@
-startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the nuber detector.");
+startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the number detector.");
 switch (startScript) {
     case "1":
         number1 = prompt("What number do you wish to multiply?");
-    number2 = prompt("What are you multiplying it by?");
+        number2 = prompt("What are you multiplying it by?");
         alert(`The answer is ${number1 * number2}.`);
         break;
     case "2":
@@ -39,7 +39,6 @@ switch (startScript) {
         fare = time + distance + 1.1;
         if (fare < 2.5) {
             console.error("PRICE TOO LOW; SWITCHING TO MINIMUM FARE...");
-            sleep(100);
             alert("Your fare is £2.50");
         } else {
             alert(`Your fare is £${fare.toFixed(1)}0.`);
