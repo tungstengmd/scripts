@@ -1,8 +1,0 @@
-//ENAML means "Entity Notation And Markup Language"
-{title}
-  'tag': Anything in a tag is not allowed to be in speech marks.
-         Newlines are directly below the last line.
-  'array': [Arrays/are/written/like/this/and special characters are written like/"£$%£"/that.]
-  //Inlines are written like so:
-  ('eg1': here, 'eg2': hereaswell)
-  //Indentations are 2 spaces, like YAML.
