@@ -1,5 +1,3 @@
-const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay)); //IT'S 9PM GO TO SLEEP 
-sleep(1);
 startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the number detector."); 
 switch (startScript) {
     case "1":
@@ -69,7 +67,7 @@ switch (startScript) {
         if (number % 2 == 0) { //the percent sign sends the remainder back with modulus
             alert("That's an even number or smth idk i forgor mdgkjbhdsmbj");
         } else if (number % 2 == 1) {
-            alert("you are one silly oddball. Or are you? *vsauce theme plays*");
+                                     alert("you are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*");
         }
         break;
     default:
