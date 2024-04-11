@@ -1,4 +1,4 @@
-startScript = prompt("Which script should be started? Answer with 1 to 9 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test and the number detector.");
+startScript = prompt("Which script should be started? Answer with 1 to 10 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test, the number detector and the time table reciter.");
 switch (startScript) {
     case "1":
         number1 = prompt("What number do you wish to multiply?");
@@ -69,6 +69,12 @@ switch (startScript) {
             alert("you are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*");
         }
         break;
+    case "10":
+        table = window.prompt("Which times table?")
+        for (let index = 0; index <= 12; index++) {
+            let answer = index * table
+            document.write(parseInt(index) + "x" + parseInt(table) + "=" + answer + "<br>")
+        }
     default:
         alert("You need to pick one. Let's try again, shall we?");
         location.reload();
