@@ -73,6 +73,7 @@ switch (startScript) {
         alert("You need to pick one. Let's try again, shall we?");
         location.reload();
 }
+console.log("What are you doing around here?");
 //TODO: add more scripts
 //jamie for the love of god learn js
 //written with far
