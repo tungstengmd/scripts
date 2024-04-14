@@ -70,11 +70,12 @@ switch (startScript) {
         }
         break;
     case "10":
-        table = window.prompt("Which times table?")
+    table = window.prompt("Which times table?");
         for (let index = 0; index <= 12; index++) {
-            let answer = index * table
-            document.write(parseInt(index) + "x" + parseInt(table) + "=" + answer + "<br>")
+            let answer = index * table;
+            document.write(parseInt(index) + "x" + parseInt(table) + "=" + answer + "<br>");
         }
+    break;
     default:
         alert("You need to pick one. Let's try again, shall we?");
         location.reload();
