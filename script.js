@@ -1,4 +1,4 @@
-startScript = prompt("Which script should be started? Answer with 1 to 10 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test, the number detector and the time table reciter.");
+startScript = prompt("Which script should be started? Answer with 1 to 11 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test, the number detector, the time table reciter and the calculator.");
 switch (startScript) {
     case "1":
         number1 = prompt("What number do you wish to multiply?");
@@ -63,18 +63,32 @@ switch (startScript) {
         break;
     case "9":
         number = prompt("Gimme a number.");
-        if (number % 2 == 0) { //the percent sign sends the remainder back with modulus            alert("That's an even number or smth idk i forgor mdgkjbhdsmbj");
+        if (number % 2 == 0) { //the percent sign sends the remainder back with modulus
+            alert("That's an even number or smth idk i forgor mdgkjbhdsmbj");
         } else if (number % 2 == 1) {
-            alert("you are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*");
+            alert("You are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*"); //omg line 69 :0
         }
         break;
     case "10":
         table = window.prompt("Which times table?");
-            for (let index = 0; index <= 12; index++) {
-                let answer = index * table;
-                document.write(parseInt(index) + "x" + parseInt(table) + "=" + answer + "<br>");
-            }
+        for (let num = 0; num <= 12; num++) {
+            let answer = num * table;
+            document.write(parseInt(num) + "x" + parseInt(table) + "=" + answer + "<br>");
+        }
         break;
+    case "11":
+        func = parseInt(prompt("What function shall be performed? Answer from 1 to 4. The functions are addition, subtraction, division and multiplication."));
+        number1 = parseInt(prompt("What is the first number?"));
+        number2 = parseInt(prompt("What is the second number?"));
+        if (func == 1) {
+            alert(`${number1} + ${number2} = ${number1+number2}`);
+        } else if (func == 2) {
+            alert(`${number1} - ${number2} = ${number1-number2}`);
+        } else if (func == 3) {
+            alert(`${number1} / ${number2} = ${number1/number2}`);
+        } else {
+            alert(`${number1} * ${number2} = ${number1*number2}`);
+        }
     default:
         alert("You need to pick one. Let's try again, shall we?");
         location.reload();
