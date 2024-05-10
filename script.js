@@ -89,6 +89,7 @@ switch (startScript) {
         } else {
             alert(`${number1} * ${number2} = ${number1*number2}`);
         }
+        break;
     default:
         alert("You need to pick one. Let's try again, shall we?");
         location.reload();
