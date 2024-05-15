@@ -1,4 +1,4 @@
-console.log("What are you doing around here?");
+log("What are you doing around here?");
 startScript = prompt("Which script should be started? Answer with 1 to 11 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test, the number detector, the time table reciter and the calculator.");
 switch (startScript) {
     case "1":
@@ -39,7 +39,7 @@ switch (startScript) {
         time = parseFloat(prompt("How long will it take?") * 0.1);
         fare = time + distance + 1.1;
         if (fare < 2.5) {
-            console.error("PRICE TOO LOW; SWITCHING TO MINIMUM FARE...");
+            error("PRICE TOO LOW; SWITCHING TO MINIMUM FARE...");
             alert("Your fare is £2.50");
         } else {
             alert(`Your fare is £${fare.toFixed(1)}0.`);
@@ -47,7 +47,7 @@ switch (startScript) {
         break;
     case "8":
         random = Math.floor(Math.random() * 10);
-        console.log(`Shh! The number is ${random}. Don't tell anyone!`);
+        log(`Shh! The number is ${random}. Don't tell anyone!`);
         guess = prompt("Guess my lucky number!");
         times = 1;
         while (guess != random) {
@@ -57,10 +57,10 @@ switch (startScript) {
                 guess = prompt("Wrong! The answer is lower!");
             }
             times++;
-            console.error("You suffer from a severe case of skill issue.");
+            error("You suffer from a severe case of skill issue.");
         }
         alert("YIPPEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!");
-        console.log(`The amount of tries needed for this to succeed were: ${times}`);
+        log(`The amount of tries needed for this to succeed were: ${times}`);
         break;
     case "9":
         number = prompt("Gimme a number.");
