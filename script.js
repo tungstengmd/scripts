@@ -57,7 +57,7 @@ switch (startScript) {
             }
             times++;
             console.error("You suffer from a severe case of skill issue.");
-        };
+        }
         alert("YIPPEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!");
         console.log(`The amount of tries needed for this to succeed were: ${times}`);
         break;
@@ -66,14 +66,14 @@ switch (startScript) {
         if (number % 2 == 0) { //the percent sign sends the remainder back with modulus
             alert("That's an even number or smth idk i forgor mdgkjbhdsmbj");
         } else if (number % 2 == 1) {
-            alert("You are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*"); //omg line 69 :0
+            alert("You are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*"); //omg line 69 :O
         }
         break;
     case "10":
-        table = window.prompt("Which times table?");
+        table = prompt("Which times table?");
         for (let num = 0; num <= 12; num++) {
             let answer = num * table;
-            document.write(parseInt(num) + "x" + parseInt(table) + "=" + answer + "<br>");
+            document.write(`${parseInt(num)}x${parseInt(table)}=${answer}`);
         }
         break;
     case "11":
