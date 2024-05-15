@@ -1,6 +1,6 @@
 # my scripts!!!!!!!!!!!!
 ## Installation
-check the latest package, or click "Code" and "Download ZIP" if im too lazy
+check the latest package, or click "Code" and "Download ZIP" if im too lazy (which i usually am :3c)
 ## How to run
 Either run the HTML file on a browser of your choice (as long as it supports JS) or:
 ### IN EMACS
