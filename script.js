@@ -57,7 +57,7 @@ switch (startScript) {
             }
             times++;
             console.error("You suffer from a severe case of skill issue.");
-        }
+        };
         alert("YIPPEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!");
         console.log(`The amount of tries needed for this to succeed were: ${times}`);
         break;
