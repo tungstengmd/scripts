@@ -13,7 +13,7 @@ switch (startScript) {
     case "3":
         firstName = prompt("What's your first name?");
         lastName = prompt("What's your last name?");
-        document.write(lastName + " " + firstName);
+        document.write(`${lastName} ${firstName}`);
         break;
     case "4": //this was an if statement test
         alert("Hello! This is a text box. I think it's kinda neat.");
