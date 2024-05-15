@@ -1,3 +1,4 @@
+console.log("What are you doing around here?");
 startScript = prompt("Which script should be started? Answer with 1 to 11 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test, the number detector, the time table reciter and the calculator.");
 switch (startScript) {
     case "1":
@@ -94,7 +95,6 @@ switch (startScript) {
         alert("You need to pick one. Let's try again, shall we?");
         location.reload();
 }
-console.log("What are you doing around here?");
 //TODO: add more scripts
 //jamie for the love of god learn js
 //written with far
