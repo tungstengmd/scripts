@@ -8,4 +8,4 @@ Make sure you have skewer-mode, simple-httpd & js2-mode installed and enable ske
 ### IN VSCODE
 Install Live Server and Live Preview. Then, on the bottom, click Go live. It may ask for you to select a browser. Select one and it should be running on port 5500.
 ### WITH NODE.JS
-Install browser-sync and run `browser-sync start --server --files .` and it should run in your browser.
+Install browser-sync and run `browser-sync start -s -f` and it should run in your browser.
