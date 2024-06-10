@@ -2,7 +2,7 @@ console.warn("What are you doing around here?");
 startScript = prompt("Which script should be started? Answer with 1 to 11 respectively. The scripts are: the multiplier, the one that states your favourite colour, the name swapper, the little test I made, the weekly pay calculator, the address formatter, the Uber® fare calculator, my while loop test, the number detector, the time table reciter and the calculator.");
 switch (startScript) {
     case "1":
-        number1 = prompt("What number do you wish to multiply?");
+        number1 = prompt("What number do you wish to multiply?"); //prompt is just window.prompt
         number2 = prompt("What are you multiplying it by?");
         alert(`The answer is ${number1 * number2}.`);
         break;
