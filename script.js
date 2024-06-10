@@ -93,7 +93,7 @@ switch (startScript) {
         break;
     default:
         alert("You need to pick one. Let's try again, shall we?");
-        location.reload();
+        location.reload(); //do i need to elaborate?
 }
 //TODO: add more scripts
 //jamie for the love of god learn js
