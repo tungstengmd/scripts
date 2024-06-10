@@ -66,8 +66,8 @@ switch (startScript) {
         number = prompt("Gimme a number.");
         if (number % 2 == 0) { //the percent sign sends the remainder back with modulus
             alert("That's an even number or smth idk i forgor mdgkjbhdsmbj");
-        } else if (number % 2 == 1) {
-            alert("You are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*"); //omg line 69 :O
+        } else if (number % 2 == 1) { //omg line 69 :O
+            alert("You are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*");
         }
         break;
     case "10":
