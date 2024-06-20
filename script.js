@@ -73,8 +73,8 @@ switch (startScript) {
     case "10":
         table = prompt("Which times table?");
         for (let num = 0; num <= 12; num++) {
-            let answer = num * table;
-            document.write(`${parseInt(num)}x${parseInt(table)}=${answer}`);
+            let answer = num * table
+          document.write(`${parseInt(num)}x${parseInt(table)}=${answer}\n`);
         }
         break;
     case "11":
@@ -97,5 +97,4 @@ switch (startScript) {
 }
 //TODO: add more scripts
 //jamie for the love of god learn js
-//written with far
 //ngl this code makes me want to kiss boys :3
