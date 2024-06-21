@@ -81,19 +81,15 @@ switch (startScript) {
         func = parseInt(prompt("What function shall be performed? Answer from 1 to 4. The functions are addition, subtraction, division and multiplication."));
         number1 = parseInt(prompt("What is the first number?"));
         number2 = parseInt(prompt("What is the second number?"));
-        switch (func) {
-          case 1:
+          if (func == 11) {
             alert(`${number1} + ${number2} = ${number1+number2}`);
-            break;
-          case 2:
+          } else if (func == 2) {
             alert(`${number1} - ${number2} = ${number1-number2}`);
-            break;
-          case 3:
+          } else if (func == 3) {
             alert(`${number1} / ${number2} = ${number1/number2}`);
-            break;
-          default:
-            alert(`${number1} * ${number2} = ${number1*number2}`);
-            break;
+          } else if (func == 4) {
+            alert(`${number1} * ${number2} = ${number1*number2}`); 
+          }
     default:
         alert("You need to pick one. Let's try again, shall we?");
         location.reload(); //do i need to elaborate?
