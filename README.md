@@ -11,6 +11,6 @@ Install Live Server and Live Preview. Then, on the bottom, click Go live. It may
 Install browser-sync and run 
 ```
 browser-sync start -s -f
-// i recommend aliasing this to bs
+# i recommend aliasing this to bs
 ```
 and it should run in your browser.
