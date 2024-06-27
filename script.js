@@ -6,31 +6,31 @@ switch (startScript) {
         let number2 = window.prompt(`What are you multiplying it by?`);
         alert(`The answer is ${number1 * number2}.`);
         break;
-}
+    }
     case `2`: {
         let colour = window.prompt(`What's your favourite colour?`);
         document.write(`Your favourite colour is ${colour}.`);
         break;
-}
+    }
     case `3`: {
         let firstName = window.prompt(`What's your first name?`);
         let lastName = window.prompt(`What's your last name?`);
         document.write(`${lastName} ${firstName}`);
         break;
-}
+    }
     case `4`: { //this was an if statement test
         alert(`Hello! This is a text box. I think it's kinda neat.`);
         window.prompt(`is this cool?`);
         window.prompt(`How could this be improved?`);
         alert(`I will take note of that. (in other words it isn't stored anywhere :3)`);
         break;
-}
+    }
     case `5`: {
         let hourlyRate = window.prompt(`Input your hourly rate.`);
         let hoursWorked = window.prompt(`Input how long you work.`);
         alert(`Your weekly pay is £${hourlyRate * hoursWorked} per week.`);
         break;
-}
+    }
     case `6`: {
         let housenumber = window.prompt(`Enter your house number.`);
         let street = window.prompt(`Enter your street.`);
@@ -39,7 +39,7 @@ switch (startScript) {
         let house = housenumber + `, ` + street + `, ` + town;
         alert(`You live at ${house}.`);
         break;
-}
+    }
     case `7`: {
         let distance = parseFloat(window.prompt(`How far is your journey?`));
         let time = parseFloat(window.prompt(`How long will it take?`) * 0.1);
@@ -51,7 +51,7 @@ switch (startScript) {
             alert(`Your fare is £${fare.toFixed(1)}0.`);
         }
         break;
-}
+    }
     case `8`: {
         let random = Math.floor(Math.random() * 10);
         console.log(`Shh! The number is ${random}. Don't tell anyone!`);
@@ -69,7 +69,7 @@ switch (startScript) {
         alert(`YIPPEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!`);
         console.log(`The amount of tries needed for this to succeed were: ${times}`);
         break;
-}
+    }
     case `9`: {
         let number = window.prompt(`Gimme a number.`);
         if (number % 2 == 0) { //the percent sign sends the remainder back with modulus
@@ -78,30 +78,30 @@ switch (startScript) {
             alert(`You are one silly oddball. Or are you, perhaps, an odd sphere? *vsauce theme plays*`);
         }
         break;
-}
+    }
     case `10`: {
         let table = window.prompt(`Which times table?`);
         for (let num = 0; num <= 12; num++) {
             let answer = num * table
-          document.write(`${parseInt(num)}x${parseInt(table)}=${answer}\n`);
+            document.write(`${parseInt(num)}x${parseInt(table)}=${answer}\n`);
         }
         break;
-}
+    }
     case `11`: {
         let func = parseInt(window.prompt(`What function shall be performed? Answer from 1 to 4. The functions are addition, subtraction, division and multiplication.`));
         let num1 = parseInt(window.prompt(`What is the first number?`));
         let num2 = parseInt(window.prompt(`What is the second number?`));
-          if (func == 1) {
+        if (func == 1) {
             alert(`${num1} + ${num2} = ${num1+num2}`);
-          } else if (func == 2) {
+        } else if (func == 2) {
             alert(`${num1} - ${num2} = ${num1-num2}`);
-          } else if (func == 3) {
+        } else if (func == 3) {
             alert(`${num1} / ${num2} = ${num1/num2}`);
-          } else if (func == 4) {
+        } else if (func == 4) {
             alert(`${num1} * ${num2} = ${num1*num2}`);
-          }
-          break;
-}
+        }
+        break;
+    }
     default:
         alert(`You need to pick one. Let's try again, shall we?`);
         location.reload(); //do i need to elaborate?
